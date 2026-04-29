@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --background: #18181b;
+  --foreground: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-oswald: var(--font-oswald);
+  --font-source-sans: var(--font-source-sans);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Custom utility classes */
+.font-oswald {
+  font-family: var(--font-oswald), sans-serif;
+}
+
+.font-source-sans {
+  font-family: var(--font-source-sans), sans-serif;
+}
+
+/* Hero grid background pattern */
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(39, 39, 42, 0.5) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(39, 39, 42, 0.5) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #18181b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3f3f46;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #52525b;
+}
