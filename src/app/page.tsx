@@ -1,4 +1,5 @@
-import Link from "next/link";
+﻿import Link from "next/link";
+import Image from "next/image";
 
 const products = [
   {
@@ -76,11 +77,17 @@ export default function HomePage() {
     <>
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Grid Background */}
-        <div className="absolute inset-0 hero-grid opacity-30" />
-
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-zinc-900 via-zinc-900/95 to-zinc-800/90" />
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <Image
+            src="/images/hero-banner.jpg"
+            alt="JBJT Global - Precision Automotive Connectors"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-zinc-900/75" />
+        </div>
 
         {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -92,16 +99,16 @@ export default function HomePage() {
           <p className="font-source-sans text-xl md:text-2xl text-zinc-300 mb-10 max-w-3xl mx-auto">
             Engineered for Performance. Trusted Worldwide.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex--col sm:flex-row gap-4 justify-center">
             <Link
               href="/contact"
-              className="px-8 py-4 bg-orange-500 text-white font-source-sans font-semibold rounded hover:bg-orange-600 transition-colors"
+              className="px-8 py-4 bg-orange-500 text-white font-ource-sans font-semibold rounded hover:bg-orange-600 transition-colors"
             >
               Request Catalog
             </Link>
             <Link
               href="/contact"
-              className="px-8 py-4 border-2 border-zinc-600 text-white font-source-sans font-semibold rounded hover:border-orange-500 hover:text-orange-500 transition-colors"
+              className="px-8 py-4 border-2 border-white text-white font-ource-sans font-semibold rounded hover:bg-white/10 transition-colors"
             >
               Contact Us
             </Link>
@@ -111,7 +118,7 @@ export default function HomePage() {
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
           <svg
-            className="w-6 h-6 text-zinc-500"
+            className="w-6 h-6 text-white/60"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
