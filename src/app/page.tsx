@@ -80,7 +80,7 @@ export default function HomePage() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/images/hero-banner.jpg"
+            src="/images/hero-banner.svg"
             alt="JBJT Global - Precision Automotive Connectors"
             fill
             className="object-cover"
