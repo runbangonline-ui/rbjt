@@ -1,0 +1,201 @@
+{
+  "Nav": {
+    "products": "Products",
+    "quality": "Quality",
+    "about": "About",
+    "contact": "Contact",
+    "pay": "Pay online",
+    "getQuote": "Get Quote",
+    "langShortEn": "EN",
+    "langShortZh": "中文"
+  },
+  "Common": {
+    "search": "Search",
+    "resultsFound": "{count} results found",
+    "matchModel": "Model",
+    "matchName": "Name",
+    "matchSpec": "Spec",
+    "cantFind": "Can't find? Send inquiry for \"{query}\" →",
+    "whatsappTooltip": "Chat on WhatsApp",
+    "whatsappMessage": "Hi, I would like to get a quote for JBJT automotive connectors."
+  },
+  "Pay": {
+    "title": "Online payment",
+    "subtitle": "Configure Stripe (STRIPE_SECRET_KEY) or an Airwallex hosted link (NEXT_PUBLIC_AIRWALLEX_CHECKOUT_URL). See .env.example.",
+    "amountLabel": "Amount (major units)",
+    "currencyLabel": "Currency",
+    "payStripe": "Pay with Stripe",
+    "payAirwallex": "Pay with Airwallex",
+    "redirecting": "Redirecting…",
+    "errorStripe": "Stripe is not configured (STRIPE_SECRET_KEY).",
+    "errorAirwallex": "Airwallex hosted URL is not set (NEXT_PUBLIC_AIRWALLEX_CHECKOUT_URL).",
+    "errorGeneric": "Checkout could not start. Try again later.",
+    "successTitle": "Thank you",
+    "successBody": "Your payment session completed. If you need a receipt, contact us with your reference.",
+    "backHome": "Back to home"
+  },
+  "Footer": {
+    "tagline": "Leading manufacturer of precision automotive connectors and terminals. Engineered for performance, trusted worldwide.",
+    "quickLinks": "Quick links",
+    "contact": "Contact",
+    "linkProducts": "Products",
+    "linkQuality": "Quality",
+    "linkAbout": "About",
+    "linkContact": "Contact",
+    "location": "Hainan, China",
+    "copyright": "© {year} JBJT Global. All rights reserved."
+  },
+  "Home": {
+    "heroLine1": "Precision Automotive",
+    "heroLine2": "Connectors",
+    "heroSubtitle": "Engineered for Performance. Trusted Worldwide.",
+    "ctaCatalog": "Request catalog",
+    "ctaContact": "Contact us",
+    "searchTitle": "Find your part",
+    "searchSubtitle": "Enter model number for instant results",
+    "searchPlaceholder": "Enter model number (e.g., 1123343-1, 5-928918-1)...",
+    "rangeTitle": "Our product range",
+    "viewAll": "View all products",
+    "qualityTitle": "Quality assurance",
+    "qualityLead": "Our commitment to quality is backed by internationally recognized certifications. Every product undergoes rigorous testing.",
+    "passRate": "Quality pass rate",
+    "aboutTitle": "About JBJT Global",
+    "statYears": "Years of experience",
+    "statClients": "Global clients",
+    "statVariants": "Product variants",
+    "aboutLead": "JBJT Global is a leading manufacturer of automotive connectors and terminals based in Hainan, China. We serve major automotive manufacturers worldwide with precision-engineered components.",
+    "ctaTouchTitle": "Get in touch",
+    "ctaTouchLead": "Have questions about our products? Need a custom solution? Our team is ready to help.",
+    "ctaTouchButton": "Contact us",
+    "cards": {
+      "terminals": {
+        "title": "Wire terminals",
+        "description": "High-quality crimp terminals for reliable wire connections in automotive applications."
+      },
+      "housing": {
+        "title": "Connector housings",
+        "description": "Durable connector housings designed for harsh automotive environments."
+      },
+      "relay": {
+        "title": "Automotive relay sockets",
+        "description": "Precision relay sockets for automotive electrical systems and control modules."
+      },
+      "sealed": {
+        "title": "Sealed connectors",
+        "description": "Waterproof and dustproof connectors meeting IP67/IP68 standards."
+      },
+      "custom": {
+        "title": "Custom solutions",
+        "description": "Tailored connector solutions designed to meet your specific requirements."
+      }
+    },
+    "certifications": [
+      {
+        "name": "ISO 9001:2015",
+        "description": "Quality Management System"
+      },
+      {
+        "name": "IATF 16949",
+        "description": "Automotive Quality Standard"
+      },
+      {
+        "name": "ISO 14001",
+        "description": "Environmental Management"
+      }
+    ]
+  },
+  "Products": {
+    "heroTitle": "Our products",
+    "heroSubtitle": "Comprehensive range of automotive connectors and terminals engineered for performance and reliability.",
+    "searchPlaceholder": "Search model number…",
+    "getQuote": "Get quote",
+    "moq": "MOQ",
+    "spec": "Spec",
+    "ctaTitle": "Need a custom solution?",
+    "ctaSubtitle": "Our engineering team can design and manufacture custom connectors tailored to your requirements.",
+    "ctaButton": "Contact our team"
+  },
+  "Quality": {
+    "heroTitle": "Quality assurance",
+    "heroSubtitle": "Internationally recognized certifications and rigorous testing protocols.",
+    "certHeading": "Certifications",
+    "processHeading": "Quality control process",
+    "statPass": "Quality pass rate",
+    "statTrace": "Traceability",
+    "statDefect": "Defect tolerance",
+    "certs": [
+      {
+        "name": "ISO 9001:2015",
+        "description": "Quality Management System — consistent quality and continuous improvement."
+      },
+      {
+        "name": "IATF 16949",
+        "description": "Automotive Quality Management — designed for the automotive supply chain."
+      },
+      {
+        "name": "ISO 14001",
+        "description": "Environmental Management — minimizing environmental impact."
+      }
+    ],
+    "processes": [
+      {
+        "title": "Incoming material inspection",
+        "description": "All raw materials are tested for compliance before entering production."
+      },
+      {
+        "title": "In-process quality control",
+        "description": "Continuous monitoring and testing at every manufacturing stage."
+      },
+      {
+        "title": "Final product testing",
+        "description": "Electrical, mechanical, and environmental testing before shipment."
+      },
+      {
+        "title": "Statistical process control",
+        "description": "Data-driven quality management using SPC to prevent defects."
+      }
+    ]
+  },
+  "About": {
+    "heroTitle": "About JBJT Global",
+    "heroSubtitle": "Leading manufacturer of precision automotive connectors and terminals.",
+    "storyTitle": "Our story",
+    "storyP1": "Founded in Hainan, China, JBJT Global has grown into a trusted manufacturer of automotive connectors and terminals. Our commitment to quality and innovation has made us a preferred partner worldwide.",
+    "storyP2": "With over 15 years of experience, we understand demanding automotive requirements. Our products perform reliably in harsh environments — extreme temperatures and constant vibration.",
+    "storyP3": "Today we serve clients across Asia, Europe, and North America with standard products and custom solutions.",
+    "yearsBadge": "Years of excellence",
+    "statsClients": "Global clients",
+    "statsVariants": "Product variants",
+    "statsCountries": "Countries served",
+    "statsPass": "Quality pass rate",
+    "valuesTitle": "Our values",
+    "v1Title": "Quality first",
+    "v1Body": "Rigorous testing ensures the highest standards of performance and reliability.",
+    "v2Title": "Innovation",
+    "v2Body": "Continuous investment in R&D and advanced manufacturing technologies.",
+    "v3Title": "Customer focus",
+    "v3Body": "Long-term partnerships through responsive service and customized solutions.",
+    "certStripTitle": "Certifications",
+    "certBadges": ["ISO 9001:2015", "IATF 16949", "ISO 14001", "RoHS"]
+  },
+  "Contact": {
+    "heroTitle": "Contact us",
+    "heroSubtitle": "Product inquiries, quotes, or technical support — we are here to help.",
+    "formTitle": "Send us a message",
+    "success": "Thank you! Your message has been sent successfully.",
+    "error": "Sorry, there was an error. Please try again.",
+    "name": "Name *",
+    "email": "Email *",
+    "phone": "Phone",
+    "company": "Company",
+    "subject": "Subject",
+    "message": "Message *",
+    "sending": "Sending…",
+    "send": "Send message",
+    "infoTitle": "Contact information",
+    "addressLabel": "Address",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "hoursTitle": "Business hours"
+  }
+}

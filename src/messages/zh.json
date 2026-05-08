@@ -1,0 +1,192 @@
+{
+  "Nav": {
+    "products": "产品",
+    "quality": "质量",
+    "about": "关于",
+    "contact": "联系",
+    "pay": "在线支付",
+    "getQuote": "获取报价",
+    "langShortEn": "EN",
+    "langShortZh": "中文"
+  },
+  "Common": {
+    "search": "搜索",
+    "resultsFound": "找到 {count} 条结果",
+    "matchModel": "型号",
+    "matchName": "名称",
+    "matchSpec": "规格",
+    "cantFind": "没找到？为「{query}」发送询盘 →",
+    "whatsappTooltip": "WhatsApp 沟通",
+    "whatsappMessage": "您好，我想咨询 JBJT 汽车端子/连接器报价。"
+  },
+  "Pay": {
+    "title": "在线支付",
+    "subtitle": "请配置 Stripe（STRIPE_SECRET_KEY）或 Airwallex 托管链接（NEXT_PUBLIC_AIRWALLEX_CHECKOUT_URL），详见 .env.example。",
+    "amountLabel": "金额（主币种单位）",
+    "currencyLabel": "币种",
+    "payStripe": "使用 Stripe 支付",
+    "payAirwallex": "使用 Airwallex 支付",
+    "redirecting": "正在跳转…",
+    "errorStripe": "未配置 Stripe（STRIPE_SECRET_KEY）。",
+    "errorAirwallex": "未设置 Airwallex 链接（NEXT_PUBLIC_AIRWALLEX_CHECKOUT_URL）。",
+    "errorGeneric": "无法发起收银台，请稍后重试。",
+    "successTitle": "感谢支付",
+    "successBody": "支付流程已完成。如需收据，请凭参考号与我们联系。",
+    "backHome": "返回首页"
+  },
+  "Footer": {
+    "tagline": "精密汽车端子与连接器制造商——为性能而设计，赢得全球信赖。",
+    "quickLinks": "快速链接",
+    "contact": "联系方式",
+    "linkProducts": "产品",
+    "linkQuality": "质量",
+    "linkAbout": "关于",
+    "linkContact": "联系",
+    "location": "中国海南",
+    "copyright": "© {year} JBJT Global 保留所有权利"
+  },
+  "Home": {
+    "heroLine1": "精密汽车",
+    "heroLine2": "连接器",
+    "heroSubtitle": "为性能而设计，赢得全球信赖。",
+    "ctaCatalog": "索取目录",
+    "ctaContact": "联系我们",
+    "searchTitle": "查找型号",
+    "searchSubtitle": "输入型号快速匹配",
+    "searchPlaceholder": "输入型号（如 1123343-1, 5-928918-1）…",
+    "rangeTitle": "产品系列",
+    "viewAll": "查看全部产品",
+    "qualityTitle": "质量保障",
+    "qualityLead": "国际认证背书，全流程严苛测试，确保性能与可靠性。",
+    "passRate": "质量合格率",
+    "aboutTitle": "关于 JBJT Global",
+    "statYears": "年行业经验",
+    "statClients": "全球客户",
+    "statVariants": "产品型号",
+    "aboutLead": "JBJT Global 总部位于中国海南，是汽车连接器与端子领域的领先制造商，为全球主机厂与零部件企业提供精密可靠的产品。",
+    "ctaTouchTitle": "联系我们",
+    "ctaTouchLead": "需要产品资料、报价或定制方案？我们的团队随时响应。",
+    "ctaTouchButton": "联系团队",
+    "cards": {
+      "terminals": {
+        "title": "线束端子",
+        "description": "高品质压接端子，适用于汽车线束可靠连接。"
+      },
+      "housing": {
+        "title": "连接器壳体",
+        "description": "面向严苛汽车环境的耐用壳体与护套。"
+      },
+      "relay": {
+        "title": "汽车继电器座",
+        "description": "用于车身电控与模块的精密继电器插座。"
+      },
+      "sealed": {
+        "title": "密封连接器",
+        "description": "满足 IP67/IP68 的防水防尘连接方案。"
+      },
+      "custom": {
+        "title": "定制方案",
+        "description": "按您的电气与机械要求量身设计制造。"
+      }
+    },
+    "certifications": [
+      { "name": "ISO 9001:2015", "description": "质量管理体系" },
+      { "name": "IATF 16949", "description": "汽车行业质量管理标准" },
+      { "name": "ISO 14001", "description": "环境管理体系" }
+    ]
+  },
+  "Products": {
+    "heroTitle": "产品中心",
+    "heroSubtitle": "覆盖汽车连接器与端子，强调性能与长期可靠性。",
+    "searchPlaceholder": "搜索型号…",
+    "getQuote": "获取报价",
+    "moq": "起订量",
+    "spec": "规格",
+    "ctaTitle": "需要定制方案？",
+    "ctaSubtitle": "工程团队可为您设计并制造专用连接器。",
+    "ctaButton": "联系工程团队"
+  },
+  "Quality": {
+    "heroTitle": "质量保障",
+    "heroSubtitle": "国际认证与严格测试流程。",
+    "certHeading": "认证体系",
+    "processHeading": "质量控制流程",
+    "statPass": "质量合格率",
+    "statTrace": "可追溯性",
+    "statDefect": "缺陷容忍",
+    "certs": [
+      {
+        "name": "ISO 9001:2015",
+        "description": "质量管理体系——稳定品质与持续改进。"
+      },
+      {
+        "name": "IATF 16949",
+        "description": "汽车行业质量管理——面向供应链的专用标准。"
+      },
+      {
+        "name": "ISO 14001",
+        "description": "环境管理体系——降低环境影响。"
+      }
+    ],
+    "processes": [
+      {
+        "title": "来料检验",
+        "description": "原材料入厂前按规范检测合格后方可投产。"
+      },
+      {
+        "title": "过程质量控制",
+        "description": "制造全过程持续监控与测试。"
+      },
+      {
+        "title": "成品测试",
+        "description": "发货前进行电气、机械与环境可靠性测试。"
+      },
+      {
+        "title": "统计过程控制（SPC）",
+        "description": "以数据驱动质量管理，预防缺陷。"
+      }
+    ]
+  },
+  "About": {
+    "heroTitle": "关于 JBJT Global",
+    "heroSubtitle": "精密汽车连接器与端子领先制造商。",
+    "storyTitle": "我们的故事",
+    "storyP1": "JBJT Global 创立于中国海南，已成长为汽车连接器与端子领域值得信赖的伙伴，以品质与创新服务全球客户。",
+    "storyP2": "十余年经验让我们深谙汽车行业严苛标准，产品可在极端温度与振动环境下稳定工作。",
+    "storyP3": "今天，我们为亚洲、欧洲与北美客户提供标准件与定制化解决方案。",
+    "yearsBadge": "年卓越历程",
+    "statsClients": "全球客户",
+    "statsVariants": "产品型号",
+    "statsCountries": "服务国家/地区",
+    "statsPass": "质量合格率",
+    "valuesTitle": "价值观",
+    "v1Title": "品质优先",
+    "v1Body": "严苛测试，确保性能与可靠性达到最高标准。",
+    "v2Title": "持续创新",
+    "v2Body": "持续投入研发与先进制造工艺。",
+    "v3Title": "客户至上",
+    "v3Body": "以快速响应与定制方案建立长期合作。",
+    "certStripTitle": "认证资质",
+    "certBadges": ["ISO 9001:2015", "IATF 16949", "ISO 14001", "RoHS"]
+  },
+  "Contact": {
+    "heroTitle": "联系我们",
+    "heroSubtitle": "产品咨询、报价或技术支持，欢迎随时沟通。",
+    "formTitle": "在线留言",
+    "success": "发送成功，感谢您的留言！",
+    "error": "发送失败，请稍后重试。",
+    "name": "姓名 *",
+    "email": "邮箱 *",
+    "phone": "电话",
+    "company": "公司",
+    "subject": "主题",
+    "message": "留言 *",
+    "sending": "发送中…",
+    "send": "发送",
+    "infoTitle": "联系信息",
+    "addressLabel": "地址",
+    "emailLabel": "邮箱",
+    "phoneLabel": "电话",
+    "hoursTitle": "营业时间"
+  }
+}
